@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE student [
+    <!ELEMENT student (name,age,phoneNum,email,address)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT phoneNum (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT address (city, town)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT town (#PCDATA)>
+]>
+
+
+<student>
+    <name> Mingmar Gyalzen Sherpa </name>
+    <age> 21 </age>
+    <phoneNum> 9823564788 </phoneNum>
+    <email> mingmagsherpa8@gmail.com </email>
+    <address>
+        <city> Kathmandu </city>
+        <town> Bouddha </town>
+    </address>
+</student>
